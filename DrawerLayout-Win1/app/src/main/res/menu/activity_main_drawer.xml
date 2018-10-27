@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Thêm báo" />
+        <item
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Thêm chuyên mục" />
+        <item
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Sửa báo đã chọn" />
+        <item
+            android:icon="@drawable/ic_menu_send"
+            android:title="Chọn kích thước chữ" />
+
+    </group>
+
+
+    <item android:title="Báo khác">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_k14"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="Kenh14" />
+                <item
+                    android:id="@+id/nav_bongda"
+                    android:icon="@drawable/bongdasm"
+                    android:title="BongdaPlus" />
+                <item
+                    android:id="@+id/nav_vietnamnet"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Vietnamnet" />
+                <item
+                    android:id="@+id/nav_zing"
+                    android:icon="@drawable/zingsmall"
+                    android:title="Zing" />
+                <item
+                    android:id="@+id/nav_yan"
+                    android:icon="@drawable/yansmall"
+                    android:title="Yan.vn" />
+            </group>
+        </menu>
+    </item>
+
+
+
+</menu>

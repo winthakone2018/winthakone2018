@@ -1,0 +1,4 @@
+#Sat Oct 27 21:28:08 ICT 2018
+base.0=F\:\\KY1NAM3\\congnghedidong\\DrawerLayout\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.0=classes.dex
+renamed.0=classes.dex
